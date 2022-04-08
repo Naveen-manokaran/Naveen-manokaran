@@ -43,7 +43,7 @@ variable "key_name" {
 
 
 variable "aws-region" {
-  type        = "string"
+  type        = string
   description =  "AWS Region the instance is launched in"
   
 }
